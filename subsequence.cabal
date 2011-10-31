@@ -1,0 +1,15 @@
+Name:                subsequence
+Version:             0.1
+Synopsis:            Given a list of strings, find the longest increasing subsequence
+-- Description:         
+License:             BSD3
+License-file:        LICENSE
+Author:              Itai Zukerman
+Maintainer:          zukerman@math-hat.com
+Copyright:           (c) 2011 Itai Zukerman
+Category:            Util
+Build-type:          Simple
+Cabal-version:       >=1.2
+Executable subsequence
+  Main-is:             subsequence.hs
+  Build-depends:       base >= 4, bytestring, cmdargs
